@@ -260,19 +260,6 @@ body:not(.home) .hero .btn { display: none; }
 .link-list { padding-left: 22px; }
 .link-list li { margin-bottom: 10px; }
 .link-list a { font-weight: 700; text-decoration-color: var(--coral); text-decoration-thickness: 2px; text-underline-offset: 3px; }
-.buy {
-  display: inline-block;
-  margin-left: 6px;
-  padding: 0 10px;
-  border-radius: 999px;
-  background: var(--yellow);
-  color: var(--ink);
-  font-size: 12px;
-  font-weight: 700;
-  line-height: 22px;
-  text-decoration: none;
-  vertical-align: 2px;
-}
 .post-cover {
   width: 320px;
   aspect-ratio: 1;
