@@ -255,6 +255,38 @@ body:not(.home) .hero .btn { display: none; }
   text-decoration: none;
 }
 
+/* Link-list posts */
+.entry-content h2 { margin: 40px 0 14px; font-size: 22px; font-weight: 800; color: var(--ink); }
+.link-list { padding-left: 22px; }
+.link-list li { margin-bottom: 10px; }
+.link-list a { font-weight: 700; text-decoration-color: var(--coral); text-decoration-thickness: 2px; text-underline-offset: 3px; }
+.buy {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 0 10px;
+  border-radius: 999px;
+  background: var(--yellow);
+  color: var(--ink);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 22px;
+  text-decoration: none;
+  vertical-align: 2px;
+}
+.post-cover {
+  width: 320px;
+  aspect-ratio: 1;
+  display: grid;
+  place-items: center;
+  border-radius: 16px;
+  background: var(--teal);
+  box-shadow: inset -60px -60px 0 -20px var(--yellow);
+  color: #fff;
+  font: 900 40px/1.2 "Noto Sans TC", sans-serif;
+  text-align: center;
+  text-decoration: none;
+}
+
 /* Sidebar */
 .widget {
   padding: 22px;
@@ -288,7 +320,7 @@ body:not(.home) .hero .btn { display: none; }
   .hero, body:not(.home) .hero, .site-content { grid-template-columns: 1fr; }
   body:not(.home) .hero-art { display: none; }
   .post-item { grid-template-columns: 1fr; gap: 18px; }
-  .post-item img { width: 100%; height: auto; aspect-ratio: 1; }
+  .post-item img, .post-cover { width: 100%; height: auto; aspect-ratio: 1; }
   .topbar { justify-content: center; }
   .main-navigation .sub-menu { right: auto; left: 0; }
 }
